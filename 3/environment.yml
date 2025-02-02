@@ -1,0 +1,16 @@
+name: Pytorch_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python = 3.10  # Versión de Python más reciente con buen soporte
+  - pytorch  # Versión específica de PyTorch (ejemplo)
+  - torchvision # Vesión específica de Torchvision (ejemplo)
+  - torchaudio # Versión específica de Torchaudio (ejemplo)
+  - cpuonly # Si no tienes GPU o no quieres usarla
+  - requests
+  - pandas
+  - ipykernel
+  - tqdm
+  - matplotlib
+  - numpy
